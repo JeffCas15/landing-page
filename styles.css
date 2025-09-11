@@ -36,14 +36,23 @@ main{ /*using this to keep the footer in the bottom*/
     color: #E5E7EB;
 }
 
+.header_nav_a:hover{
+    color: #fdfeff;
+}
+
 /*First section style*/
 
 .darkSection{
     display: flex;
     justify-content: space-evenly;
     background-color: #1F2937;
+    padding: 7vh;
 }
 
+.darkSection_div{
+    width: 90vh;
+    height: auto;
+}
 
 .darkSection_mainText{
     color: #F9FAF8;
@@ -58,5 +67,46 @@ main{ /*using this to keep the footer in the bottom*/
 .darkSection_button{
     background-color: #3882F6;
     color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
     border: none;
+    width: 25vh;
+    height: 7vh;
+    border-radius: 12px;
+}
+
+.darkSection_button:hover{
+    background-color: #1467ee;
+}
+
+.darkSection_imgPlaceholder{
+    background-color: #818386;
+    color: #E5E7EB;
+    width: 80vh;
+    height: auto;
+}
+
+/*Second section style*/
+
+.title_sectiontwo{
+    text-align: center;
+    padding: 9px;
+    font-size: 26px;
+    color: #1F2937;
+}
+
+.content_sectiontwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_sectiontwo_div{
+    justify-content: center;
+    text-align: center;
+    width: 40vh;
+    height: auto;
+}
+
+.content_image{
+    
 }
